@@ -9,7 +9,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img1.png', alt='')
+          img(src='@/assets/curso/temas/tema2/img1.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
         p Raciti & Vivaldi (2020. p.6), citando la definición dada por Crocker & Robeyns (2009), definen la agencia como la libertad de decidir y el poder de actuar y ser efectivo que una persona tiene. Dicho de otra manera, la libertad y el poder de una persona de decidir y actuar sobre la base de lo que valora y tiene motivos para valorar, como se aprecia en la siguiente figura:
@@ -30,8 +30,9 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        .cajon.color-primario.bg3.p-4.mb-4
-          p La agencia en otras palabras es el poder que tiene cada persona sobre su propia vida en torno a cómo desea vivir y actuar y a las decisiones que toma para mejorar su calidad de vida.
+        .cajon.color-primario.bg3.p-4
+          p.mb-0 La agencia en otras palabras es el poder que tiene cada persona sobre su propia vida en torno a cómo desea vivir y actuar y a las decisiones que toma para mejorar su calidad de vida.
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
         p Sin embargo, Mora y Oliveira (2014), citando a Elder y otros, 2003, indican que la agencia se puede ver afectada por las oportunidades y restricciones reales que se derivan de la situación histórica y social de cada persona. En este sentido, las elecciones que cada persona toma están afectadas por los recursos disponibles y potencialmente accesibles, es así como factores como la falta de empleo, las necesidades básicas como techo y comida insatisfechas, el difícil acceso de los jóvenes a una estabilidad laboral afecta o retrasa la consecución de las metas y planes trazados como podemos evidenciar en la siguiente figura:
@@ -50,14 +51,13 @@
           img(src='@/assets/curso/temas/tema2/img3_1.svg', alt='En la figura 4, se presentan los tipos de agencia según Mora y Oliveira (2014). La agencia adaptativa se centra en la subsistencia del joven, mientras que la agencia proyectiva implica la capacidad del joven para establecer planes y metas.')
           figcaption Nota. Adaptado de Mora & Oliveira (2014). (p.94)
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img4.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Según la anterior figura y como señala Berger (2008), citado por Mora & Oliveira (2014), existen dos tipos de agencia. La primera es la agencia adaptativa, en la que las personas se enfocan en el presente y subsisten con los recursos inmediatos disponibles. La segunda es la agencia proyectiva, en la que, dependiendo de los recursos accesibles, las personas elaboran planes y se fijan metas a largo plazo. 
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img4.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Según la anterior figura y como señala Berger (2008), citado por Mora & Oliveira (2014), existen dos tipos de agencia. La primera es la agencia adaptativa, en la que las personas se enfocan en el presente y subsisten con los recursos inmediatos disponibles. La segunda es la agencia proyectiva, en la que, dependiendo de los recursos accesibles, las personas elaboran planes y se fijan metas a largo plazo. 
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
         p Los desequilibrios sociales afectan especialmente a quienes tienen menos recursos, limitando su capacidad de tomar decisiones y actuar para mejorar su calidad de vida. Para activar esta capacidad, conocida como agencia, es clave trabajar en aspectos personales como la autoestima, la regulación emocional, la empatía y la resiliencia, que forman parte de las Competencias Socioemocionales (CSE).
@@ -65,7 +65,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img5.png', alt='')
+          img(src='@/assets/curso/temas/tema2/img5.png', alt='Imagen decorativa')
       .col-lg-7(data-aos="fade-left")
         p La agencia no solo aplica a individuos, sino también a comunidades. Estas pueden planificar su desarrollo desde el empoderamiento colectivo, tomando decisiones enfocadas en el bienestar común y asegurando los derechos de sus integrantes, creando un desarrollo sostenible.
         .cajon.color-primario.p-4.mb-4
@@ -102,7 +102,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img7.png', alt='')
+          img(src='@/assets/curso/temas/tema2/img7.png', alt='Imagen decorativa')
       .col-lg-7(data-aos="fade-left")
         p El aprendizaje no es uniforme y depende de que cada persona tome conciencia de su realidad y la de los demás. Este proceso le permite reconocer aspectos compartidos de su cultura, construir su identidad y tomar decisiones informadas en su vida.
         p Es importante ayudar a las personas a construir y entender su trayectoria de vida, ya que esto no solo satisface sus necesidades, sino que también reduce desigualdades y fomenta un enfoque más humanista. Las necesidades humanas no se ven solo como carencias, sino como oportunidades para movilizar a jóvenes y sus familias hacia cambios positivos, mejorando su calidad de vida.
@@ -110,7 +110,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
               figure
-                img(src='@/assets/curso/temas/tema2/img8.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/img8.svg', alt='Imagen decorativa')
             .col-lg-9(data-aos="fade-left")
               p La formación juega un papel clave como puente entre interpretar y transformar la realidad. Este proceso permite a las personas verse como actores activos en su entorno, construyendo conocimientos que les ayudan a entender y cambiar su mundo.
 
@@ -144,13 +144,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img12.png', alt='')
+          img(src='@/assets/curso/temas/tema2/img12.png', alt='Imagen decorativa')
       .col-lg-7
         p(data-aos="fade-left") Por otro lado, el desconocimiento se muestra en formas de negación como:
         .row.justify-content-center.align-items-center
           .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
             .figure
-              img(src='@/assets/curso/temas/tema2/img13.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/img13.svg', alt='Imagen decorativa')
           .col-lg-9(data-aos="fade-left")
             ol.lista-ol--cuadro.lista-ol--separador
               li
@@ -191,31 +191,24 @@
       .col-lg-10
         .cajon.color-primario.bg3.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
-              .figure
-                img(src='@/assets/curso/temas/tema2/img15.svg', alt='')
+            .col-lg-3.col-md-6.col-sm-8.mb-lg-0.mb-4(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema2/img15.svg', alt='Imagen decorativa')
             .col-lg-9(data-aos="fade-left")
-              p Cualquier acción destinada a fortalecer la autoestima femenina debe tener en cuenta estas desigualdades de género y buscar revertirlas, especialmente en contextos educativos. Es necesario desafiar las prácticas que perpetúan estereotipos y que afectan la construcción de la identidad femenina.
+              p.mb-0 Cualquier acción destinada a fortalecer la autoestima femenina debe tener en cuenta estas desigualdades de género y buscar revertirlas, especialmente en contextos educativos. Es necesario desafiar las prácticas que perpetúan estereotipos y que afectan la construcción de la identidad femenina.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p(data-aos="fade-left") Además, este ejemplo resalta que los bajos niveles de Competencias Socioemocionales (CSE) suelen estar vinculados a procesos de dominación y la difusión de ideologías implícitas que refuerzan representaciones marginales del yo. Estas ideas, muchas veces inconscientes, pueden ser transmitidas incluso en el ámbito educativo, afectando negativamente a hombres y mujeres que enfrentan condiciones de marginalización.
         p(data-aos="fade-left") A este respecto Giroux llama la atención sobre:
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 La necesidad de moldear nuevas categorías de análisis que permitirían a los educadores ser más conscientes de la forma en que los maestros, estudiantes y otros trabajadores de la educación llegan a ser parte del sistema de reproducción social y cultural […] Al reconocer la necesidad de una psicología social crítica los educadores pueden identificar cómo se constituyen las ideologías e identificar y reconstruir las prácticas y procesos sociales que destruyen en vez de continuar las formas existentes de dominación psicológica y social. (1992, pág. 64)
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        p(data-aos="fade-left") Según Giroux, (1992), desde este enfoque, el fortalecimiento de las competencias socioemocionales (CSE) se convierte en una oportunidad para activar dinámicas de resistencia, tanto individual como colectiva, dentro de los procesos educativos y formativos (). Esto se logra abriendo espacios para la autorreflexión sobre las condiciones de las personas, los grupos y las comunidades, con especial atención a la interacción entre las experiencias vividas y los mecanismos de exclusión que han despojado a estos actores de sus derechos y su futuro. Además, podría señalarse que estos mecanismos también han debilitado las CSE, un elemento esencial para satisfacer las necesidades humanas fundamentales.
-
-
-
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La necesidad de moldear nuevas categorías de análisis que permitirían a los educadores ser más conscientes de la forma en que los maestros, estudiantes y otros trabajadores de la educación llegan a ser parte del sistema de reproducción social y cultural […] Al reconocer la necesidad de una psicología social crítica los educadores pueden identificar cómo se constituyen las ideologías e identificar y reconstruir las prácticas y procesos sociales que destruyen en vez de continuar las formas existentes de dominación psicológica y social. (1992, pág. 64)
+    
+    p(data-aos="fade-left") Según Giroux, (1992), desde este enfoque, el fortalecimiento de las competencias socioemocionales (CSE) se convierte en una oportunidad para activar dinámicas de resistencia, tanto individual como colectiva, dentro de los procesos educativos y formativos (). Esto se logra abriendo espacios para la autorreflexión sobre las condiciones de las personas, los grupos y las comunidades, con especial atención a la interacción entre las experiencias vividas y los mecanismos de exclusión que han despojado a estos actores de sus derechos y su futuro. Además, podría señalarse que estos mecanismos también han debilitado las CSE, un elemento esencial para satisfacer las necesidades humanas fundamentales.
 
 </template>
 

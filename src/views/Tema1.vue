@@ -6,27 +6,27 @@
       .titulo-principal__numero
         span 1
       h1 La Ciudadanía y los diferentes contextos
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img1.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
       .col-lg-7(data-aos="fade-left")
         p En este componente formativo, la categoría "contextos" se comprende como los diferentes escenarios en los que las personas interactúan, impulsadas por propósitos y metas que buscan comunicar y negociar significados compartidos de las situaciones que experimentan. Estos significados suelen haber sido construidos previamente por otras personas y reflejan dinámicas sociales acumuladas.
         .cajon.color-primario.p-4.mb-4
-          p El contexto está constituido por un entorno físico, todos los objetos, las realizaciones humanas materiales e inmateriales, que se viven y que son modificadas y determinadas por los actos en sociedad y con las cuales se interactúan y a las cuales se asignan determinados valores.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        p Para entender el concepto de ciudadanía, es esencial reconocer que esta se materializa en la ciudad, concebida como un espacio histórico de interacción donde las personas conviven bajo un pacto social. Este pacto regula la convivencia a través de principios que los individuos aceptan y transforman. La ciudadanía se manifiesta en procesos como la formación de alianzas, el reconocimiento mutuo, la gestión de conflictos y la construcción compartida de significados, tanto a nivel individual como colectivo.
+          p.mb-0 El contexto está constituido por un entorno físico, todos los objetos, las realizaciones humanas materiales e inmateriales, que se viven y que son modificadas y determinadas por los actos en sociedad y con las cuales se interactúan y a las cuales se asignan determinados valores.
+    
+    p.mb-5(data-aos="fade-left") Para entender el concepto de ciudadanía, es esencial reconocer que esta se materializa en la ciudad, concebida como un espacio histórico de interacción donde las personas conviven bajo un pacto social. Este pacto regula la convivencia a través de principios que los individuos aceptan y transforman. La ciudadanía se manifiesta en procesos como la formación de alianzas, el reconocimiento mutuo, la gestión de conflictos y la construcción compartida de significados, tanto a nivel individual como colectivo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           .row.justify-content-center.align-items-center
-            .col-lg-2.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
+            .col-lg-2.col-md-6.col-sm-8.mb-lg-0.mb-4(data-aos="zoom-in")
               figure
-                img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imagen decorativa')
             .col-lg-10(data-aos="fade-left")
-              p Según Raciti y Vivaldi (2020), es fundamental diferenciar entre los espacios público y privado en este contexto. El espacio público, íntimamente vinculado con la ciudad, es el ámbito donde se expresan y negocian los derechos, deberes y responsabilidades de los ciudadanos, consolidando su relación con la ciudadanía y los valores colectivos.
+              p.mb-0 Según Raciti y Vivaldi (2020), es fundamental diferenciar entre los espacios público y privado en este contexto. El espacio público, íntimamente vinculado con la ciudad, es el ámbito donde se expresan y negocian los derechos, deberes y responsabilidades de los ciudadanos, consolidando su relación con la ciudadanía y los valores colectivos.
     
     p.mb-4(data-aos="fade-left") En la siguiente figura, se establecen claramente las diferencias de estos dos espacios: 
     
@@ -43,29 +43,27 @@
         figure
           img(src='@/assets/curso/temas/tema1/img3_1.svg', alt='En la figura 1, se presentan las características de los espacios basada en Raciti & Vivaldi (2020), donde se compara el espacio privado y el espacio público. El espacio privado se caracteriza por ser familiar, cómodo, con reglas internas y enfoque individual, mientras que el espacio público es desconocido, requiere adaptación, fomenta el interés colectivo y privilegia el diálogo.')
           figcaption Nota. adaptado de Raciti & Vivaldi (2020).
+
+    p(data-aos="fade-left") Siendo el espacio privado el espacio de lo familiar y conocido, se relaciona directamente con los contextos personal y familiar. En el contexto personal el ser humano a través de la vida va adquiriendo una estructura que le da la identidad personal y va configurando su carácter de acuerdo con sus propias estructuras físicas, mentales y psicológicas y con la interacción con su entorno en los procesos de socialización. Vivaldi, (2020).
+    p.mb-5(data-aos="fade-left") En el proceso de desarrollo se va definiendo una trayectoria de vida desde los gustos, deseos y aspiraciones y dentro de las posibilidades que el entorno brinda. Se pueden fijar metas que se pueden o no cumplir, de acuerdo con las circunstancias personales.
+    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        p(data-aos="fade-left") Siendo el espacio privado el espacio de lo familiar y conocido, se relaciona directamente con los contextos personal y familiar. En el contexto personal el ser humano a través de la vida va adquiriendo una estructura que le da la identidad personal y va configurando su carácter de acuerdo con sus propias estructuras físicas, mentales y psicológicas y con la interacción con su entorno en los procesos de socialización. Vivaldi, (2020).
-        p(data-aos="fade-left") En el proceso de desarrollo se va definiendo una trayectoria de vida desde los gustos, deseos y aspiraciones y dentro de las posibilidades que el entorno brinda. Se pueden fijar metas que se pueden o no cumplir, de acuerdo con las circunstancias personales.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img4.png', alt='')
+      .col-lg-3.col-md-6.col-sm-8.mb-lg-0.mb-4(data-aos="zoom-in")
+        img(src='@/assets/curso/temas/tema1/img4.png', alt='Imagen decorativa')
       .col-lg-7
         p(data-aos="fade-left") Hay que tomar conciencia de la realidad y de aquello que genere disgusto del entorno, fortaleciendo la capacidad de autodeterminación, la cual puede aprovechar en pro de sí mismo y de la comunidad en la que se vive.
         p(data-aos="fade-left") Hay que compartir con personas que permiten fortalecer la autoestima en entornos familiares, sociales, laborales, educativos y ciudadanos y utilizar herramientas de identificación y manejo de emociones en la vida personal y en la interacción con los otros. Desarrollando procesos de autoconocimiento que permiten identificar las emociones y la manera en que las se pueden regular.
         p(data-aos="fade-left") Además, se deben desarrollar capacidades para identificar diferentes perspectivas reconociendo al otro, sus pensamientos y sentimientos; reconocer los sentimientos y la perspectiva o punto de vista u opinión de otras personas y respetarlas.
-        .cajon.color-primario.p-4.mb-4
-          p(data-aos="fade-left") En el contexto familiar por otra parte, provee un espacio en el que los seres humanos obtienen los elementos distintivos de la cultura y las normas sociales que les permiten su integración en la sociedad. Se puede poner en funcionamiento las Competencias Socioemocionales (CSE), para interactuar con los miembros de la familia y para construir relaciones familiares armónicas. (Isaza, 2012). 
+        .cajon.color-primario.p-4
+          p.mb-0(data-aos="fade-left") En el contexto familiar por otra parte, provee un espacio en el que los seres humanos obtienen los elementos distintivos de la cultura y las normas sociales que les permiten su integración en la sociedad. Se puede poner en funcionamiento las Competencias Socioemocionales (CSE), para interactuar con los miembros de la familia y para construir relaciones familiares armónicas. (Isaza, 2012). 
     
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img5.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 La calidad de la relación familiar influye de una manera significativa en el desarrollo de la dimensión social. Los estudiosos de la psicología reconocen la familia como un factor determinante en los procesos de socialización de la primera infancia y el impacto que estos producen en la vida futura. Las características psicosociales e institucionales de la familia y las relaciones interpersonales que se establecen entre los integrantes de la familia, que involucra aspectos de desarrollo, de comunicación, interacción y crecimiento personal, tienen una influencia directa en el desarrollo social de las personas. (Isaza, 2012). 
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img5.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La calidad de la relación familiar influye de una manera significativa en el desarrollo de la dimensión social. Los estudiosos de la psicología reconocen la familia como un factor determinante en los procesos de socialización de la primera infancia y el impacto que estos producen en la vida futura. Las características psicosociales e institucionales de la familia y las relaciones interpersonales que se establecen entre los integrantes de la familia, que involucra aspectos de desarrollo, de comunicación, interacción y crecimiento personal, tienen una influencia directa en el desarrollo social de las personas. (Isaza, 2012). 
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p(data-aos="fade-left") Del espacio público son el contexto educativo, el contexto laboral, el contexto social y el contexto ciudadano. La vida de los seres humanos en los espacios públicos requiere esfuerzos de adaptación de acuerdo con las diferentes circunstancias. Cuenta con códigos de acceso que pueden en primera instancia ser desconocidos y posteriormente se van aprendiendo. 
@@ -98,11 +96,9 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen deocrativa')
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        P(data-aos="fade-left") Este texto aborda cómo las interacciones con los demás y con el entorno contribuyen al desarrollo de competencias ciudadanas, sociales y laborales, facilitando la adaptación a los desafíos diarios, promoviendo el equilibrio entre las convicciones personales y las necesidades colectivas.
-    separador
+    p(data-aos="fade-left") Este texto aborda cómo las interacciones con los demás y con el entorno contribuyen al desarrollo de competencias ciudadanas, sociales y laborales, facilitando la adaptación a los desafíos diarios, promoviendo el equilibrio entre las convicciones personales y las necesidades colectivas.
     
+    separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Interacción y competencias ciudadanas
 
@@ -189,11 +185,10 @@
       h5 Tabla 1.
       span  #[i Dimensiones  pedagógicas de la formación a la ciudadanía y constructos socioemocionales correspondientes]
     .tabla-b.color-acento-contenido.mb-5
-      
-      table
+      table(alt="La tabla 1 presenta las dimensiones pedagógicas asociadas a la formación en ciudadanía y los constructos socioemocionales correspondientes. La formación a la palabra está vinculada con la comunicación, mientras que la formación al poder incluye empatía, regulación emocional, resiliencia, manejo de conflictos, trabajo en equipo y liderazgo. Por su parte, la formación al aparecer se relaciona con autoestima, empatía y regulación emocional.")
         tr.bg2
-          th Dimensiones pedagógicas
-          th Constructos socioemocionales
+          th(style="width: 40%;") Dimensiones pedagógicas
+          th(style="width: 60%;") Constructos socioemocionales
         tr
           td  Formación a la palabra
           td  Comunicación 

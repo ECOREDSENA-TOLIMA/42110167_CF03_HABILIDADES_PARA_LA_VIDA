@@ -13,13 +13,13 @@
           img(src='@/assets/curso/temas/tema3/img1.png', alt='')
       .col-lg-7(data-aos="fade-left")
         .cajon.color-primario.bg3.p-4.mb-4
-          p El marco lógico es una herramienta clave para diseñar e implementar proyectos que buscan transformar la realidad social. Permite organizar las ideas de manera clara y estructurada, enfocándose en resolver problemas específicos de una comunidad (BID, 2019).
-        p Se caracteriza por su enfoque sistemático, que permite identificar claramente los problemas a resolver, los objetivos que se quieren alcanzar y las acciones necesarias para lograrlo. Esta herramienta tiene múltiples usos y permite ser complementada por diversos enfoques de investigación o de intervención social, sumado a esto es ampliamente reconocida como parte de los apartados metodológicos en diversos contextos nacionales e internaciones para la redacción de proyectos, que pueden tener o no financiamiento.
+          p.mb-0 El marco lógico es una herramienta clave para diseñar e implementar proyectos que buscan transformar la realidad social. Permite organizar las ideas de manera clara y estructurada, enfocándose en resolver problemas específicos de una comunidad (BID, 2019).
+        p.mb-0 Se caracteriza por su enfoque sistemático, que permite identificar claramente los problemas a resolver, los objetivos que se quieren alcanzar y las acciones necesarias para lograrlo. Esta herramienta tiene múltiples usos y permite ser complementada por diversos enfoques de investigación o de intervención social, sumado a esto es ampliamente reconocida como parte de los apartados metodológicos en diversos contextos nacionales e internaciones para la redacción de proyectos, que pueden tener o no financiamiento.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
         p El marco lógico organiza la información de un proyecto en una matriz que describe de manera clara los objetivos, actividades, resultados esperados y los indicadores que evalúan el éxito de un proyecto. Su principal finalidad es alinear las acciones con las necesidades reales de la comunidad, estableciendo un plan que pueda ser monitoreado y ajustado según los resultados obtenidos.
-        p Según el BID, 2019, algunos elementos fundamentales del marco lógico son:
+        p.mb-0 Según el BID, 2019, algunos elementos fundamentales del marco lógico son:
     
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.bg5.p-4
@@ -65,13 +65,12 @@
         h4.text-center Supuestos y riesgos
         p.text-center Se identifican las condiciones externas que podrían influir positiva o negativamente en el proyecto. Por ejemplo, un riesgo podría ser la falta de lluvias que afecte el sistema de captación de agua. 
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img9.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3.col-md-6.col-sm-8.mb-lg-0.mb-4(data-aos="zoom-in")
+        img(src='@/assets/curso/temas/tema3/img9.svg', alt='')
       .col-lg-7(data-aos="fade-left")
         p La metodología del marco lógico ofrece varias ventajas, como claridad y enfoque, que permite proporcionar una estructura lógica que facilita la comprensión del proyecto a las partes interesadas y guías las acciones para los participantes. Sumado a esto al ser un enfoque que permite la interacción con otros, permite integrar desde la academia otros tipos de diseño de intervención (por ejemplo, Investigación Acción, IA o Investigación Acción Participativa IAP).
-        p Esta permite la participación comunitaria de las partes involucradas, para la búsqueda de identificar los problemas y sus soluciones siendo además adaptable a contextos diversos y cambiantes y finalmente la evaluación de la efectividad del proyecto e intervención está definida previamente. 
+        p.mb-0 Esta permite la participación comunitaria de las partes involucradas, para la búsqueda de identificar los problemas y sus soluciones siendo además adaptable a contextos diversos y cambiantes y finalmente la evaluación de la efectividad del proyecto e intervención está definida previamente. 
     
     separador
     
@@ -147,19 +146,14 @@
               p #[b Supuesto]: el clima permitirá suficiente recolección de agua.
               P #[b Riesgo]: falta de participación de la comunidad en las capacitaciones.
 
+    p(data-aos="fade-left") El marco lógico es una herramienta versátil y eficaz que permite diseñar intervenciones sociales con impacto tangible. Su estructura facilita la identificación de problemas, la formulación de objetivos claros y la definición de indicadores para monitorear los avances. Este enfoque no solo promueve una planificación y ejecución estratégica, sino que también garantiza que las soluciones estén alineadas con las necesidades de las comunidades. Al fomentar la participación activa y la interacción con otras metodologías, el marco lógico se convierte en una herramienta adaptable a diversos contextos, contribuyendo significativamente a la transformación social y el desarrollo sostenible.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        p El marco lógico es una herramienta versátil y eficaz que permite diseñar intervenciones sociales con impacto tangible. Su estructura facilita la identificación de problemas, la formulación de objetivos claros y la definición de indicadores para monitorear los avances. Este enfoque no solo promueve una planificación y ejecución estratégica, sino que también garantiza que las soluciones estén alineadas con las necesidades de las comunidades. Al fomentar la participación activa y la interacción con otras metodologías, el marco lógico se convierte en una herramienta adaptable a diversos contextos, contribuyendo significativamente a la transformación social y el desarrollo sostenible.
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left")
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Los contenidos desarrollados en este componente formativo están basados en el documento Asistencia Técnica de Eurosocial a Prosperidad Social: Producto A. 2020, elaborado por Raciti, P. y Vivaldi, P. Este documento presenta una propuesta de orientaciones conceptuales, metodológicas y operativas para fortalecer las competencias transversales, también conocidas como habilidades para la vida, de los participantes de los programas Jóvenes en Acción, estudiantes de secundaria vinculados a Familias en Acción y madres titulares del Programa Familias en Acción. Estas orientaciones fueron diseñadas para su implementación tanto en modalidades virtuales como presenciales y han sido adoptadas e implementadas por Prosperidad Social en Colombia, con el apoyo de Eurosocial. Bogotá, 2020.
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Los contenidos desarrollados en este componente formativo están basados en el documento Asistencia Técnica de Eurosocial a Prosperidad Social: Producto A. 2020, elaborado por Raciti, P. y Vivaldi, P. Este documento presenta una propuesta de orientaciones conceptuales, metodológicas y operativas para fortalecer las competencias transversales, también conocidas como habilidades para la vida, de los participantes de los programas Jóvenes en Acción, estudiantes de secundaria vinculados a Familias en Acción y madres titulares del Programa Familias en Acción. Estas orientaciones fueron diseñadas para su implementación tanto en modalidades virtuales como presenciales y han sido adoptadas e implementadas por Prosperidad Social en Colombia, con el apoyo de Eurosocial. Bogotá, 2020.
 
 </template>
 
