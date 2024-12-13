@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 La Ciudadanía y los diferentes contextos
+      h1 La ciudadanía y los diferentes contextos
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
@@ -30,7 +30,7 @@
     
     p.mb-4(data-aos="fade-left") En la siguiente figura, se establecen claramente las diferencias de estos dos espacios: 
     
-    .titulo-sexto.color-acento-contenido.offset-2(data-aos="zoom-in")
+    .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 1.
       span  #[i Características de los espacios privados y públicos ]
     
@@ -44,7 +44,7 @@
           img(src='@/assets/curso/temas/tema1/img3_1.svg', alt='En la figura 1, se presentan las características de los espacios basada en Raciti & Vivaldi (2020), donde se compara el espacio privado y el espacio público. El espacio privado se caracteriza por ser familiar, cómodo, con reglas internas y enfoque individual, mientras que el espacio público es desconocido, requiere adaptación, fomenta el interés colectivo y privilegia el diálogo.')
           figcaption Nota. adaptado de Raciti & Vivaldi (2020).
 
-    p(data-aos="fade-left") Siendo el espacio privado el espacio de lo familiar y conocido, se relaciona directamente con los contextos personal y familiar. En el contexto personal el ser humano a través de la vida va adquiriendo una estructura que le da la identidad personal y va configurando su carácter de acuerdo con sus propias estructuras físicas, mentales y psicológicas y con la interacción con su entorno en los procesos de socialización. Vivaldi, (2020).
+    p(data-aos="fade-left") Siendo el espacio privado, el espacio de lo familiar y conocido, se relaciona directamente con los contextos personal y familiar. En el contexto personal el ser humano a través de la vida va adquiriendo una estructura que le da la identidad personal y va configurando su carácter de acuerdo con sus propias estructuras físicas, mentales y psicológicas y con la interacción con su entorno en los procesos de socialización. Vivaldi, (2020).
     p.mb-5(data-aos="fade-left") En el proceso de desarrollo se va definiendo una trayectoria de vida desde los gustos, deseos y aspiraciones y dentro de las posibilidades que el entorno brinda. Se pueden fijar metas que se pueden o no cumplir, de acuerdo con las circunstancias personales.
     
     .row.justify-content-center.align-items-center.mb-5
@@ -111,6 +111,10 @@
         .cajon.color-primario.p-4.mb-4
           p(data-aos="fade-left") La formación ciudadana tiene como objetivo central la acción ciudadana autónoma, que trascienda lo personal y se manifiesta en el espacio público a través de la agencia. Esto requiere no solo conocimientos y competencias básicas socioemocionales, sino también un entorno favorable para su ejercicio.
     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Para garantizar una participación efectiva en la vida pública, es fundamental formar a las personas en tres dimensiones clave:
+
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -118,7 +122,10 @@
             figure
               img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 La palabra
+            .acordion__accion.acordion__accion__btn--b.h3.mb-0
+              i.fas.fa-angle-up
+            .ubicar
+              h4.mb-3 La palabra
             p.mb-0 Transición de una comunicación egocentrada y emocionalmente cerrada hacia una palabra abierta, dialógica y disponible para los espacios públicos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -127,7 +134,10 @@
             figure
               img(src="@/assets/curso/temas/tema1/img12.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 El poder
+            .acordion__accion.acordion__accion__btn--b.h3.mb-0
+              i.fas.fa-angle-up
+            .ubicar
+              h4.mb-3 El poder
             p.mb-0 Evolución de una visión del poder como fuerza o reivindicación hacia un enfoque basado en la agencia, es decir, la capacidad de actuar y generar opiniones y decisiones.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -136,7 +146,10 @@
             figure
               img(src="@/assets/curso/temas/tema1/img13.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 El aparecer
+            .acordion__accion.acordion__accion__btn--b.h3.mb-0
+              i.fas.fa-angle-up
+            .ubicar
+              h4.mb-3 El aparecer
             p.mb-0 Movimiento del simple exhibirse, centrado en “expresar lo que soy”, hacia una presencia significativa que contribuya al diálogo en los espacios públicos. 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -194,7 +207,7 @@
           td  Comunicación 
         tr
           td  Formación al poder
-          td Empatía, regulación emocional, resiliencia, manejo de Conflictos, trabajo en equipo, liderazgo
+          td Empatía, regulación emocional, resiliencia, manejo de conflictos, trabajo en equipo, liderazgo
 
         tr
           td  Formación al aparecer

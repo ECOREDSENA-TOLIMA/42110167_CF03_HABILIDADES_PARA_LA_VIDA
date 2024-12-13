@@ -18,7 +18,7 @@
       h5 Figura 3.
       span  #[i Definición de la agencia ]
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-10.desktop(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img2.svg', alt='En la figura 3, se presenta la definición de agencia según Vivaldi (2020). Este concepto se entiende como la libertad y el poder de decidir y actuar en función de lo que una persona valora y tiene razones para valorar.')
